@@ -85,6 +85,6 @@ def coco_to_yolo(coco_json_path, output_dir, image_dir):
 # Call the function
 coco_to_yolo(
     r"C:\Users\sarit\Downloads\tacotrashdataset\dataset.json",  # Path to COCO JSON
-    r"C:\Users\sarit\Downloads\tacotrashdataset\traindataset",   # Output directory for YOLO dataset
+    r"C:\Users\sarit\Downloads\tacotrashdataset\dataset_yolo",   # Output directory for YOLO dataset
     r"C:\Users\sarit\Downloads\tacotrashdataset\data"           # Path to images
 )
